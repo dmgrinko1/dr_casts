@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="drifting_ruby_app@localhost" uuid="c7f4ed58-317c-42c4-90a9-cdf0d41001a2">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/drifting_ruby_app</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="drifting_ruby_app_dev_replica@localhost" uuid="fc5c1cf1-b26e-4676-999e-a290bea28b11">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/drifting_ruby_app_dev_replica</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails driftingruby_app: production" uuid="072d08c5-27b5-4c2c-a43d-0e4d329897d5">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/driftingruby_app_production</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails driftingruby_app: test" uuid="3867fe72-46c3-446d-859d-61267df7f94b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/driftingruby_app_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails driftingruby_app: development" uuid="b74b24d0-a6e7-47ee-88a9-36a13751dfe1">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/drifting_ruby_app</jdbc-url>
+    </data-source>
+  </component>
+</project>
