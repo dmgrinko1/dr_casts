@@ -1,22 +1,8 @@
 # frozen_string_literal: true
-require 'mechanize'
-require 'nokogiri'
-require 'open-uri'
 
-class Crawler::DriftingRuby
+class Crawler::DriftingRuby < CrawlerBase
   ROOT = "https://www.driftingruby.com".freeze
   SIGN_IN = "#{ROOT}/users/sign_in".freeze
-
-  attr_reader :from, :to
-
-  def initialize(from:, to:)
-    @from = from
-    @to = to
-  end
-
-  def call
-    run_crawler
-  end
 
   private
 
